@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
+    
 
 }
 .sec-01{
@@ -61,6 +61,45 @@ nav li a{
     margin-left: 100px;
 }
          /* popular-collection*/
-.collection .collection-products img{
+         
+        
+.collection{
+    width: 310px;
+    height: 496px;
+    background-color: #FFFFFF;
+    box-shadow:0px 0px 30px;
+    border-radius: 5px;
+}
+ .collections .collection .collection-products img{
+    width: 280px;
+    height: 236px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.products-details{
+    font-size: 20px;
+    padding-left: 12px;
+}
+.products-info{
+    display: flex;
     
+    align-items: center;
+}
+.fa-star{
+    font-size: 14px;
+    
+}
+.fa-star.filled{
+    color: #FB8200;
+
+}
+.fa-star.empthy{
+    color: #AEAEAE ;
+    
+}
+.history{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    color: gray;
 }
