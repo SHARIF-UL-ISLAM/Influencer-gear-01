@@ -13,6 +13,13 @@ body{
     padding-left: 20px;
     padding-right: 480px;
 }
+#font{
+    padding-left: 20px;
+}
+.font-01{
+    padding-left: 20px;
+    
+}
 
 
 
@@ -62,13 +69,28 @@ nav li a{
 }
          /* popular-collection*/
          
-        
+.section-titel{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-right: 300px;
+    margin-left: 400px;
+    margin-bottom: 75px;
+}
+
 .collection{
     width: 310px;
-    height: 496px;
+    height: 486px;
     background-color: #FFFFFF;
-    box-shadow:0px 0px 30px;
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 30);
     border-radius: 5px;
+    
+
 }
  .collections .collection .collection-products img{
     width: 280px;
@@ -79,10 +101,10 @@ nav li a{
 .products-details{
     font-size: 20px;
     padding-left: 12px;
-}
+    margin-bottom: 10px;
+ }
 .products-info{
     display: flex;
-    
     align-items: center;
 }
 .fa-star{
@@ -102,4 +124,11 @@ nav li a{
     font-family: cursive;
     font-weight: bold;
     color: gray;
+    
+}
+.page{     
+    text-align: end;
+    color: #E02C6D;
+    padding-right: 300px;
+    
 }
