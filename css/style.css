@@ -163,3 +163,26 @@ nav li a{
      font-size: 40px;
     padding-right: 15px;
  }
+ /* media queries  */
+ /* mobile devices */
+ @media only screen and (max-width:688px) {
+     
+    
+    .blog-01, .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-01, .collection{
+        flex-direction: column;
+    }
+ }
+/* tablet devices */
+@media only screen and (min-width:668px)  and (max-width:992px) {
+
+    .blog-01, .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-01, .collections{
+        flex-direction: column;
+    }
+    
+}
